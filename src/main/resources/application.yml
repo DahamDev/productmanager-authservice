@@ -1,0 +1,17 @@
+server:
+  port: 8087
+jwt:
+  secret: javainuse
+
+#MYSQL_HOST: localhost
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://192.168.1.220:3306/product-service
+    #${MYSQL_HOST:localhost}:3307/auth
+    username: appuser
+    password: password
+
+
